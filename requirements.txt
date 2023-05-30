@@ -29,6 +29,7 @@ debugpy=1.5.1=py39he9d5cce_0
 decorator=5.1.1=pyhd3eb1b0_0
 defusedxml=0.7.1=pyhd3eb1b0_0
 entrypoints=0.4=py39hecd8cb5_0
+exceptiongroup=1.0.4=py39hecd8cb5_0
 executing=0.8.3=pyhd3eb1b0_0
 fonttools=4.25.0=pyhd3eb1b0_0
 freetype=2.12.1=hd8bbffd_0
@@ -42,6 +43,7 @@ idna=3.4=py39hecd8cb5_0
 importlib-metadata=6.0.0=py39hecd8cb5_0
 importlib_metadata=6.0.0=hd3eb1b0_0
 importlib_resources=5.2.0=pyhd3eb1b0_1
+iniconfig=1.1.1=pyhd3eb1b0_0
 intel-openmp=2023.1.0=ha357a0b_43547
 ipykernel=6.19.2=py39h01d92e1_0
 ipython=8.12.0=py39hecd8cb5_0
@@ -124,6 +126,7 @@ pickleshare=0.7.5=pyhd3eb1b0_1003
 pillow=9.4.0=py39hcec6c5f_0
 pip=23.0.1=py39hecd8cb5_0
 platformdirs=2.5.2=py39hecd8cb5_0
+pluggy=1.0.0=py39hecd8cb5_1
 ply=3.11=py39hecd8cb5_0
 pooch=1.4.0=pyhd3eb1b0_0
 prometheus_client=0.14.1=py39hecd8cb5_0
@@ -140,6 +143,7 @@ pyqt=5.15.7=py39he9d5cce_0
 pyqt5-sip=12.11.0=py39he9d5cce_0
 pyrsistent=0.18.0=py39hca72f7f_0
 pysocks=1.7.1=py39hecd8cb5_0
+pytest=7.3.1=py39hecd8cb5_0
 python=3.9.16=h218abb5_2
 python-dateutil=2.8.2=pyhd3eb1b0_0
 python-fastjsonschema=2.16.2=py39hecd8cb5_0
