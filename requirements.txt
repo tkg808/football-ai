@@ -136,6 +136,7 @@ psutil=5.9.0=py39hca72f7f_0
 ptyprocess=0.7.0=pyhd3eb1b0_2
 pure_eval=0.2.2=pyhd3eb1b0_0
 pycparser=2.21=pyhd3eb1b0_0
+pydantic=1.10.2=py39hca72f7f_0
 pygments=2.15.1=py39hecd8cb5_1
 pyopenssl=23.0.0=py39hecd8cb5_0
 pyparsing=3.0.9=py39hecd8cb5_0
