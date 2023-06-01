@@ -175,3 +175,10 @@ pyrightconfig.json
 
 # End of https://www.toptal.com/developers/gitignore/api/python
 
+# Handles credentials for Google Drive
+settings.yaml
+credentials.json
+client_secrets.json
+service_secrets.json
+
+.DS_Store

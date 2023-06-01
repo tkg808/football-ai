@@ -1,26 +1,32 @@
 # This file may be used to create an environment using:
 # $ conda create --name <env> --file <this file>
 # platform: osx-64
+aiohttp=3.8.3=py39h6c40b1e_0
+aiosignal=1.2.0=pyhd3eb1b0_0
 anyio=3.5.0=py39hecd8cb5_0
 appdirs=1.4.4=pyhd3eb1b0_0
 appnope=0.1.2=py39hecd8cb5_1001
 argon2-cffi=21.3.0=pyhd3eb1b0_0
 argon2-cffi-bindings=21.2.0=py39hca72f7f_0
 asttokens=2.0.5=pyhd3eb1b0_0
+async-timeout=4.0.2=py39hecd8cb5_0
 attrs=22.1.0=py39hecd8cb5_0
 babel=2.11.0=py39hecd8cb5_0
 backcall=0.2.0=pyhd3eb1b0_0
 beautifulsoup4=4.12.2=py39hecd8cb5_0
 blas=1.0=mkl
 bleach=4.1.0=pyhd3eb1b0_0
+blinker=1.4=py39hecd8cb5_0
 bottleneck=1.3.5=py39h67323c0_0
 brotli=1.0.9=hca72f7f_7
 brotli-bin=1.0.9=hca72f7f_7
 brotlipy=0.7.0=py39h9ed2024_1003
 ca-certificates=2023.01.10=hecd8cb5_0
+cachetools=4.2.2=pyhd3eb1b0_0
 certifi=2023.5.7=py39hecd8cb5_0
 cffi=1.15.1=py39h6c40b1e_3
 charset-normalizer=2.0.4=pyhd3eb1b0_0
+click=8.0.4=py39hecd8cb5_0
 comm=0.1.2=py39hecd8cb5_0
 contourpy=1.0.5=py39haf03e11_0
 cryptography=39.0.1=py39hf6deb26_0
@@ -33,9 +39,13 @@ exceptiongroup=1.0.4=py39hecd8cb5_0
 executing=0.8.3=pyhd3eb1b0_0
 fonttools=4.25.0=pyhd3eb1b0_0
 freetype=2.12.1=hd8bbffd_0
+frozenlist=1.3.3=py39h6c40b1e_0
 gettext=0.21.0=he85b6c0_1
 giflib=5.2.1=h6c40b1e_3
 glib=2.69.1=hfff2838_2
+google-auth=2.6.0=pyhd3eb1b0_0
+google-auth-oauthlib=0.5.2=py39hecd8cb5_0
+gspread=5.7.1=pyh1a96a4e_0
 gst-plugins-base=1.14.1=hcec6c5f_1
 gstreamer=1.14.1=h6c40b1e_1
 icu=58.2=h0a44026_3
@@ -101,6 +111,7 @@ mkl=2023.1.0=h59209a4_43558
 mkl-service=2.4.0=py39h6c40b1e_1
 mkl_fft=1.3.6=py39h07fba90_1
 mkl_random=1.2.2=py39h07fba90_1
+multidict=6.0.2=py39hca72f7f_0
 munkres=1.1.4=py_0
 nbclassic=0.5.5=py39hecd8cb5_0
 nbclient=0.5.13=py39hecd8cb5_0
@@ -110,11 +121,12 @@ ncurses=6.4=hcec6c5f_0
 nest-asyncio=1.5.6=py39hecd8cb5_0
 notebook=6.5.4=py39hecd8cb5_0
 notebook-shim=0.2.2=py39hecd8cb5_0
-nspr=4.33=he9d5cce_0
-nss=3.74=h47edf6a_0
+nspr=4.35=hcec6c5f_0
+nss=3.89.1=hcec6c5f_0
 numexpr=2.8.4=py39h47b59a4_1
 numpy=1.24.3=py39h47b59a4_1
 numpy-base=1.24.3=py39hcfaf2c3_1
+oauthlib=3.2.2=py39hecd8cb5_0
 openssl=1.1.1t=hca72f7f_0
 packaging=23.0=py39hecd8cb5_0
 pandas=1.5.3=py39h07fba90_0
@@ -135,9 +147,12 @@ prompt_toolkit=3.0.36=hd3eb1b0_0
 psutil=5.9.0=py39hca72f7f_0
 ptyprocess=0.7.0=pyhd3eb1b0_2
 pure_eval=0.2.2=pyhd3eb1b0_0
+pyasn1=0.4.8=pyhd3eb1b0_0
+pyasn1-modules=0.2.8=py_0
 pycparser=2.21=pyhd3eb1b0_0
 pydantic=1.10.2=py39hca72f7f_0
 pygments=2.15.1=py39hecd8cb5_1
+pyjwt=2.4.0=py39hecd8cb5_0
 pyopenssl=23.0.0=py39hecd8cb5_0
 pyparsing=3.0.9=py39hecd8cb5_0
 pyqt=5.15.7=py39he9d5cce_0
@@ -147,6 +162,7 @@ pysocks=1.7.1=py39hecd8cb5_0
 pytest=7.3.1=py39hecd8cb5_0
 python=3.9.16=h218abb5_2
 python-dateutil=2.8.2=pyhd3eb1b0_0
+python-dotenv=0.21.0=py39hecd8cb5_0
 python-fastjsonschema=2.16.2=py39hecd8cb5_0
 pytz=2022.7=py39hecd8cb5_0
 pyzmq=25.0.2=py39hcec6c5f_0
@@ -157,8 +173,11 @@ qtpy=2.2.0=py39hecd8cb5_0
 qtwebkit=5.212=hbfab81c_5
 readline=8.2=hca72f7f_0
 requests=2.29.0=py39hecd8cb5_0
+requests-oauthlib=1.3.0=py_0
+rsa=4.7.2=pyhd3eb1b0_1
 scikit-learn=1.2.2=py39hcec6c5f_0
 scipy=1.10.1=py39hf241641_1
+selenium=3.141.0=py39h9ed2024_1000
 send2trash=1.8.0=pyhd3eb1b0_1
 setuptools=67.8.0=py39hecd8cb5_0
 sip=6.6.2=py39he9d5cce_0
@@ -186,6 +205,7 @@ websocket-client=0.58.0=py39hecd8cb5_4
 wheel=0.38.4=py39hecd8cb5_0
 widgetsnbextension=4.0.5=py39hecd8cb5_0
 xz=5.4.2=h6c40b1e_0
+yarl=1.8.1=py39hca72f7f_0
 zeromq=4.3.4=h23ab428_0
 zipp=3.11.0=py39hecd8cb5_0
 zlib=1.2.13=h4dc903c_0
