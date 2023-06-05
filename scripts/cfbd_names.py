@@ -18,12 +18,15 @@ async def get_new_names(year: int) -> None:
 
                 worksheet = create_sheet(file_name)
                 worksheet.update(names)
-        except Exception:
+        except Exception as e:
             print('cfbd_names --> get_team_names --> Fetch failed')
-            raise
+            raise e
 
 async def get_saved_names(year: int) -> List[str]:
+    file_name = f'{year}_names'
+
     try:
-        return load_sheet(f'{year}_names').col_values(1)
-    except Exception:
+        return load_sheet(file_name).col_values(1)
+    except Exception as e:
         print('scripts --> cfbd_names --> get_saved_names failed')
+        raise e
